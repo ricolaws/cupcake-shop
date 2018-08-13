@@ -1,0 +1,38 @@
+body {
+  background-color:	#FFF8DC;
+  font-family: helvetica;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+div.middle {
+  text-align: left;
+  padding: 10px;
+  border: 2px solid yellow
+}
+
+.flashy{
+  background: 	#FFA07A;
+  font-size: 32px;
+  color: #FF1493;
+  text-decoration: underline;
+  font-family: fantasy;
+}
+
+#best {
+  animation: blinker 1s linear infinite;
+  color: red;
+  border: 2px dotted #FF4500;
+}
+
+.end {
+  font-family: fantasy;
+  }
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
